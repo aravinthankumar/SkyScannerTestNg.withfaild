@@ -1,0 +1,265 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-06T16:16:45.124Z",
+        "before": [
+          {
+            "result": {
+              "duration": 722000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.given()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "To validate the login functionality of facebook login application",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the-login-functionality-of-facebook-login-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5715279800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4744192400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user has to enter \"aravinthan@gmail.com\" and \"7598727010\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aravinthan@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"7598727010\"",
+                  "offset": 49
+                }
+              ],
+              "location": "FacebookLogin.the_user_has_to_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68564400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user has to click  login button",
+            "match": {
+              "location": "FacebookLogin.the_user_has_to_click_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-06T16:16:55.671Z",
+        "before": [
+          {
+            "result": {
+              "duration": 88100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.given()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "To validate the create new account functionality of facebook application",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the-create-new-account-functionality-of-facebook-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5729424700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3512446500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user has to click create new account",
+            "match": {
+              "location": "FacebookLogin.the_user_has_to_click_create_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1069178500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user should be enter \"Aravinthan\" and \"Arunachalam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Aravinthan\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Arunachalam\"",
+                  "offset": 42
+                }
+              ],
+              "location": "FacebookLogin.the_user_should_be_enter_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122698400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user has to click sign up",
+            "match": {
+              "location": "FacebookLogin.the_user_has_to_click_sign_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of facebook application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/FacebookLogin.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-06T16:17:06.122Z",
+        "before": [
+          {
+            "result": {
+              "duration": 164000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.given()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate the create account functionality of gmail step1 application",
+        "description": "",
+        "id": "to-validate-the-create-account-functionality-gmail-application;to-validate-the-create-account-functionality-of-gmail-step1-application",
+        "after": [
+          {
+            "result": {
+              "duration": 5753120000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4978389100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should be in google page",
+            "match": {
+              "location": "gmailRegist.the_user_should_be_in_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3214589400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user has to click searchbar and enter gmail",
+            "match": {
+              "location": "gmailRegist.the_user_has_to_click_searchbar_and_enter_gmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6510240700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user has to click gmail first link",
+            "match": {
+              "location": "gmailRegist.the_user_has_to_click_gmail_first_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2882565500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user has to click create an account button",
+            "match": {
+              "location": "gmailRegist.the_user_has_to_click_create_an_account_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@step1"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the create account functionality gmail application",
+    "description": "",
+    "id": "to-validate-the-create-account-functionality-gmail-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Gmail.feature",
+    "tags": [
+      {
+        "name": "@step1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
